@@ -7,7 +7,9 @@
     "authors": [
         {
             "name": "Williams Abraham",
-            "email": "wapcrazut@gmail.com"
+            "email": "wapcrazut@gmail.com",
+            "homepage": "https://webdeveloperguy.com",
+            "role": "Developer"
         }
     ],
     "require": {

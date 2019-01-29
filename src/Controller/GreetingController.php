@@ -16,7 +16,7 @@ final class GreetingController extends Controller
      */
     public function staticallyGreetAction(?string $name): Response
     {
-        return $this->render('@AcmeSyliusExamplePlugin/static_greeting.html.twig', ['greeting' => $this->getGreeting($name)]);
+        return $this->render('@WapcrazutSyliusDhlExpressShippingExportPlugin/static_greeting.html.twig', ['greeting' => $this->getGreeting($name)]);
     }
 
     /**
@@ -26,7 +26,7 @@ final class GreetingController extends Controller
      */
     public function dynamicallyGreetAction(?string $name): Response
     {
-        return $this->render('@AcmeSyliusExamplePlugin/dynamic_greeting.html.twig', ['greeting' => $this->getGreeting($name)]);
+        return $this->render('@WapcrazutSyliusDhlExpressShippingExportPlugin/dynamic_greeting.html.twig', ['greeting' => $this->getGreeting($name)]);
     }
 
     /**
