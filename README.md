@@ -2,7 +2,9 @@
 
 <p align="center">DHL Express shipping export plugin for Sylius based applications.</p>
 
-## Installation
+### In development!
+
+<!-- ## Installation
 
 1. Run `composer require wapcrazut/sylius-dhl-express-shipping-export-plugin`.
 
@@ -78,3 +80,4 @@
     $ (cd tests/Application && bin/console sylius:fixtures:load -e dev)
     $ (cd tests/Application && bin/console server:run -d public -e dev)
     ```
+-->

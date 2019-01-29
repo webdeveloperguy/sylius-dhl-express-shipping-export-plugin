@@ -1,5 +1,5 @@
 {
-    "name": "wapcrazut/sylius-dhl-express-shipping-export-plugin",
+    "name": "webdeveloperguy/dhl-express-shipping-export-plugin",
     "type": "sylius-plugin",
     "keywords": ["sylius", "sylius-plugin"],
     "description": "DHL Express shipping export plugin for Sylius based applications.",
@@ -14,7 +14,8 @@
     ],
     "require": {
         "php": "^7.2",
-        "sylius/sylius": "~1.3.0@dev"
+        "sylius/sylius": "~1.3.0@dev",
+        "bitbag/shipping-export-plugin": "^1.2"
     },
     "require-dev": {
         "behat/behat": "^3.4",
@@ -54,8 +55,8 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Wapcrazut\\SyliusDhlExpressShippingExportPlugin\\": "src/",
-            "Tests\\Wapcrazut\\SyliusDhlExpressShippingExportPlugin\\": "tests/"
+            "Webdeveloperguy\\DhlExpressShippingExportPlugin\\": "src/",
+            "Tests\\Webdeveloperguy\\DhlExpressShippingExportPlugin\\": "tests/"
         }
     },
     "extra": {
